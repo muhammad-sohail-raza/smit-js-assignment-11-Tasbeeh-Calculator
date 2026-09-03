@@ -1,0 +1,158 @@
+body {
+  background-color: black;
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 55px;
+  box-sizing: border-box;
+
+  background-color: #00110b;
+}
+
+nav button {
+  color: green;
+  font-size: 25px;
+  width: 75px;
+  border: none;
+  font-weight: 300;
+  cursor: pointer;
+  background: transparent;
+}
+
+nav .small {
+  color: green;
+  background-color: black;
+  border: 0px;
+  font-size: 25px;
+  width: 25px;
+}
+nav select {
+  color: green;
+  background-color: black;
+  border: 0px;
+  font-size: 25px;
+  width: 55px;
+  outline: 0px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container1 {
+  border: 1px solid black;
+  width: 212px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 38px;
+  position: relative;
+}
+
+.container1 #num {
+  border: 1px solid black;
+  font-size: 135px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 #num p {
+  font-size: small;
+  color: white;
+}
+
+.container1 #num input {
+  width: 185px;
+  height: 80px;
+  color: white;
+  font-size: 80px;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: black;
+}
+.container2 {
+  /* border: 1px solid black;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 600px;*/
+}
+
+.container2 .btn {
+  border: 1px solid gray;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.container2 .btn button {
+  font-size: 260px;
+  font-weight: 100;
+  font-family: serif;
+  border: 0px;
+  color: green;
+  background-color: black;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+}
+.container2 .btn button:active {
+  background-color: green;
+  transition: 0.2s;
+  border: 5px solid green;
+  transition-delay: 0.003s;
+}
+
+.main + div {
+  border: 1px solid black;
+  display: flex;
+  align-items: end;
+  /*margin-top: 20px;*/
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.main + div footer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+
+div footer button {
+  background-color: black;
+  font-size: 29px;
+  /*font-weight: 90px;*/
+  color: green;
+  width: 43px;
+  border-radius: 50%;
+  border: 1px solid green;
+}
